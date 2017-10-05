@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+    margin: 50px 0px;
+}
+/*First exercise*/
+#first-rectangle{
+  background-color: green;
+  border: 1px solid black;
+  width: 300px;
+  height: 100px;
+  position: relative;
+  left: 300px;
+}
+#second-rectangle{
+  background-color: blue;
+  border: 1px solid black;
+  width: 300px;
+  height: 100px;
+  position: relative;
+  left: 450px;
+}
+#third-rectangle{
+  background-color: yellow;
+  border: 1px solid black;
+  width: 300px;
+  height: 100px;
+  position: relative;
+  left: 600px;
+}
+/*Second exercise*/
+#first-square{
+  background-color: green;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  left: 450px;
+}
+#second-square{
+  background-color: yellow;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+#third-square{
+  background-color: blue;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+#fourth-square{
+  background-color: orange;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+/*Third exercise*/
+#first-block{
+  background-color: pink;
+  border: 1px solid black;
+  width: 600px;
+  height: 100px;
+  position: relative;
+  left: 350px;
+}
+#second-block{
+  background-color: grey;
+  border: 1px solid black;
+  width: 400px;
+  height: 250px;
+  position: relative;
+  left: 450px;
+}
+#third-block{
+  background-color: pink;
+  border: 1px solid black;
+  width: 600px;
+  height: 100px;
+  position: relative;
+  left: 350px;
+}
+/*Fourth exercise*/
+#first-absolute{
+  background-color: pink;
+  border: 1px solid black;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  left: 400px;
+}
+#second-absolute{
+  background-color: grey;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+#third-absolute{
+  background-color: black;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -1px;
+  left: 450px;
+}
+#fourth-absolute{
+  background-color: black;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 250px;
+  left: -1px;
+}
+#fifth-absolute{
+  background-color: purple;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 135px;
+  right: 215px;
+}
+#sixth-absolute{
+  background-color: grey;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+}
